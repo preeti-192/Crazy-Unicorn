@@ -71,7 +71,7 @@
 }
 
 .insta:hover a svg path {
-    fill: #d62976;
+    fill: url(#rg);
 
 }
 
@@ -346,10 +346,22 @@
     border-radius: 12px;
     padding: 12px 53px 22px 43px;
     z-index: 1;
+    transition: all .3s;
 }
 
 .mint_btn span {
     background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 40px;
+    z-index: 5;
+    position: relative;
+    transition: all .3s;
+}
+
+.mint_btn:hover span {
+    background: linear-gradient(100.7deg, #ff2ae6 -10.68%, #b60dff 13.2%,rgb(13, 255, 231) 143.2%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -365,6 +377,21 @@
     backdrop-filter: blur(82.0956px);
     border-radius: 25px;
     border: 1px solid #E68AFC;
+    transition: all .3s;
+}
+
+.slider_box img {
+    transition: all .3s;
+}
+
+.slider_box:hover,
+.slider_box:active {
+    color: #fff;
+    box-shadow: 0px -1px 10px 0 #B62AFF;
+}
+
+.slider_box:hover img {
+    transform: scale(1.1) translateY(-20px);
 }
 
 .transform_unicorn {

@@ -7,8 +7,8 @@ const About = () => {
     <>
       <section className=" py-5 position-relative" id="about">
         <div class="noot-1"> &#9833; &#9836;</div>
-        <div class="noot-2">&#9833; &#9733;</div>
-        <div class="noot-3">&#9835; &#9834;</div>
+        <div class="noot-2">&#9833; &#9733; 🎶</div>
+        <div class="noot-3">&#9835; 🎶 &#9834;</div>
         <div class="noot-4">&#9835; &#9834; &#9836;</div>
         <div class="noot-5">&#9834; &#9733;</div>
         <Container>
