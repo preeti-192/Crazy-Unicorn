@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import timeline from "../assets/images/png/timeline.png";
 
 const Roadmap = () => {
   return (

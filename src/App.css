@@ -29,6 +29,7 @@
     z-index: 50;
 }
 
+/*  =========== nav bar =========== */
 .nav_btn {
     font-size: 33px;
 }
@@ -56,6 +57,29 @@
     transform: translateX(-50%) rotate(-4.31deg);
     transition: 0.4s;
 }
+
+.icon {
+    transition: .4s linear;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.twitter:hover a svg path {
+    fill: #00ACEE;
+}
+
+.insta:hover a svg path {
+    fill: #d62976;
+
+}
+
+.discord:hover a svg path {
+    fill: #5865F2;
+}
+
+/* ========= preloader ======== */
 
 .preloderCounter {
     color: #ffffff;
@@ -102,6 +126,8 @@
     }
 }
 
+/* star animation */
+
 .star {
     --size: 30vmin;
     --holes: calc(var(--size)*.495);
@@ -130,17 +156,7 @@
     }
 }
 
-/* 
-.muzieknootjes {
-    display: block;
-    margin: auto;
-    position: relative;
-    width: 50%;
-    min-width: 300px;
-    height: 200px;
-    border: 0px solid #000;
-} */
-
+/* music notes animation */
 .noot-1,
 .noot-2,
 .noot-3,
@@ -208,26 +224,6 @@
     }
 }
 
-.icon {
-    transition: .4s linear;
-}
-
-.icon:hover {
-    transform: scale(1.1);
-}
-
-.twitter:hover a svg path {
-    fill: #00ACEE;
-}
-
-.insta:hover a svg path {
-    fill: #d62976;
-
-}
-
-.discord:hover a svg path {
-    fill: #5865F2;
-}
 
 .clouds {
     /* background: linear-gradient(0deg, #000000 22%, #0C0D0D 27.99%, #2B2F30 38.98%, #5E6768 52.97%, #A4B2B4 69.95%, #E8FDFF 85.93%); */
@@ -303,6 +299,8 @@
     max-width: 386px;
 }
 
+/* about */
+
 .about_cards {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(82.0956px);
@@ -360,15 +358,7 @@
     position: relative;
 }
 
-.timeline {
-    position: relative;
-}
-
-.timeline::after {
-    content: "";
-    position: absolute;
-    background-image: url("./assets/images/png/timeline.png");
-}
+/* ============ team ============== */
 
 .slider_box {
     background: rgba(255, 255, 255, 0.57);
@@ -411,6 +401,8 @@
     left: 70px;
 }
 
+/*  ================== FAQ ================= */
+
 .accordion {
     --bs-accordion-bg: transparent !important;
     --bs-accordion-border-color: 0 !important;
@@ -442,6 +434,8 @@
     max-width: 831px;
     border-bottom: 1px solid #A96BB3;
 }
+
+/*  ==============Roadmap ================= */
 
 .timeline-container {
     width: 100%;
@@ -490,6 +484,8 @@
     z-index: 2;
 }
 
+/* ==================== sign up ==================== */
+
 .email_box {
     padding: 23px 12px 21px 48px;
     width: 521px;
@@ -522,6 +518,8 @@
     align-items: center;
 }
 
+/* =============== footer ============ */
+
 .footer_rainbow {
     max-height: 667px;
     min-height: 300px;
@@ -529,12 +527,12 @@
     max-width: 600px;
 }
 
-/* footer */
 .footer_clouds {
-    /* background: linear-gradient(0deg, #000000 22%, #0C0D0D 27.99%, #2B2F30 38.98%, #5E6768 52.97%, #A4B2B4 69.95%, #E8FDFF 85.93%); */
     background-blend-mode: screen;
     mix-blend-mode: screen;
 }
+
+/*  ============== media queries =============== */
 
 @media (max-width:992px) {
     .myNav {
